@@ -1,1 +1,1 @@
-# identiflex git commit --allow-empty -m 'Trigger update'; git push
+# identiflex git commit --allow-empty -m 'Trigger update';git push
