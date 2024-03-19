@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="group_restrict_wo" model="res.groups">
+            <field name="name">Restrict the Workorder</field>
+            <field name="comment">This group is restrict the workorder to start when component status is not available.</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+
+        <record id="group_confirmation_wo" model="res.groups">
+            <field name="name">Confirmation popup on WO start</field>
+            <field name="comment">This group is shows the confirmation popup on workorder starts when component status is not available.</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+    </data>
+</odoo>

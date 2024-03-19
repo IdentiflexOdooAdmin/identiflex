@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="wo_confirmation_form_view" model="ir.ui.view">
+        <field name="name">wo.confirmation.form.view</field>
+        <field name="model">wo.confirmation</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <span>Are you sure you want to start Work Order without component?</span>
+                </group>
+                <footer>
+                    <button string="Ok" name="action_apply" type="object" class="btn-primary"/>
+                    <button string="Close" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>
